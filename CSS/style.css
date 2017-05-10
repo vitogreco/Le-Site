@@ -2,8 +2,14 @@ h1{
 	
 	font-family: 'Franklin Gothic Medium';
 	margin: 400px;
-	margin-top: 250px;
+	margin-top: 20%;
 	position: absolute;
+}
+
+.ProfilePicture{
+	position: absolute;
+	margin-left: 45%;
+	margin-top: 2%
 }
 
 .left-V {
@@ -75,13 +81,14 @@ animation: rotation2 3s infinite alternate;
 }
 
 .video1{
+	display: inline-block;
 	border: 10px solid #ff8d1e;
 	
 	padding: -50px;
 	width: 400px;
 	height: auto;
-	margin-top: 5px;
-margin-left: 100px;
+	margin-top: 5%;
+margin-left: 10%;
 position: absolute;
 
 }
@@ -90,12 +97,12 @@ position: absolute;
 	margin-top: -10px;
 	margin-left: -10px;
 	background-color: dodgerblue ;
-	height: 500px;
-	width: 1500px;
+	height: 80%;
+	width: 100%;
 }
 .footer{
-	height: 200px;
-	width: 1500px;
+	height: 20%;
+	width: 100%;
 	margin-top: -20px;
 	margin-left: -10px;
 	background-color: #353535;
@@ -106,8 +113,8 @@ position: absolute;
 
 .icon{
 	display: inline-block;
-	margin-top: 50px;
-	margin-left: 75px;
+	margin-top: 3%;
+	margin-left: 15%;
 	height: 100px;
 	width: 100px;
 }
@@ -120,6 +127,7 @@ position: absolute;
 .text{
 	font-family: Ubuntu;
 	font-size: 30px;
+	color:white;
 	text-align: center;
 	margin-top: -50px;
 	position: absolute;
