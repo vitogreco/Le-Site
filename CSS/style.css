@@ -1,0 +1,132 @@
+h1{
+	
+	font-family: 'Franklin Gothic Medium';
+	margin: 400px;
+	margin-top: 250px;
+	position: absolute;
+}
+
+.left-V {
+	margin-top:10px;
+	margin-left: 22px;
+	height: 100px;
+	width: 20px;
+	border-bottom-right-radius: 25px;
+	background-color:#ff8d1e;
+	float: left;
+transform: rotate(25deg);
+animation: rotation 3s infinite alternate;
+
+
+}
+
+.right-V {
+	margin-top:10px;
+	margin-left: 60px;
+	height: 100px;
+	width: 20px;
+	background-color: #eae017;
+	float: left;
+	border-bottom-left-radius: 25px;
+	display: inline-block;
+transform: rotate(-25deg);
+animation: rotation2 3s infinite alternate;
+}
+
+@keyframes rotation{
+
+	50% {
+		transform: rotate(25deg);
+		margin-top:10px;
+		}
+
+	100% {
+		transform: rotate(1105deg);
+		margin-top:100px;
+	}
+
+}
+
+@keyframes rotation2{
+	
+	50% {
+		transform: rotate(-25deg);
+		margin-top:10px;
+	
+	}
+
+	100% {
+		transform: rotate(-1105deg);
+		margin-top:100px;
+		}
+}
+
+@keyframes vanish-spin{
+	0%{
+		transform: rotate(0deg);
+	}
+	
+	100%{
+		transform: rotate(1080deg);
+		opacity: 0;
+
+	
+	}
+}
+
+.video1{
+	border: 10px solid #ff8d1e;
+	
+	padding: -50px;
+	width: 400px;
+	height: auto;
+	margin-top: 5px;
+margin-left: 100px;
+position: absolute;
+
+}
+
+.header{
+	margin-top: -10px;
+	margin-left: -10px;
+	background-color: dodgerblue ;
+	height: 500px;
+	width: 1500px;
+}
+.footer{
+	height: 200px;
+	width: 1500px;
+	margin-top: -20px;
+	margin-left: -10px;
+	background-color: #353535;
+
+
+}
+
+
+.icon{
+	display: inline-block;
+	margin-top: 50px;
+	margin-left: 75px;
+	height: 100px;
+	width: 100px;
+}
+
+ .icon:hover img{
+	animation: vanish-spin 1s linear;
+	animation-fill-mode: forwards;
+
+}
+.text{
+	font-family: Ubuntu;
+	font-size: 30px;
+	text-align: center;
+	margin-top: -50px;
+	position: absolute;
+	visibility: hidden;
+}
+.icon:hover .text{
+	
+	visibility: visible
+}
+
