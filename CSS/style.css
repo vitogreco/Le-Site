@@ -12,16 +12,38 @@ h1{
 	margin-top: 2%
 }
 
+.ProfilePicturec image{
+	position: absolute;
+	margin-left: 45%;
+	margin-top: 2%
+}
+
 .left-V {
 	margin-top:10px;
 	margin-left: 22px;
 	height: 100px;
 	width: 20px;
+	border-top-left-radius: 25px;
 	border-bottom-right-radius: 25px;
 	background-color:#ff8d1e;
 	float: left;
 transform: rotate(25deg);
 animation: rotation 3s infinite alternate;
+
+
+}
+
+.D {
+	margin-top:10px;
+	margin-left: 22px;
+	height: 70px;
+	width: 70px;
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
+	background-color:#ff8d1e;
+	float: right;
+	margin-right: 5%;
+
 
 
 }
@@ -34,6 +56,7 @@ animation: rotation 3s infinite alternate;
 	background-color: #eae017;
 	float: left;
 	border-bottom-left-radius: 25px;
+	border-top-right-radius: 25px;
 	display: inline-block;
 transform: rotate(-25deg);
 animation: rotation2 3s infinite alternate;
@@ -81,8 +104,9 @@ animation: rotation2 3s infinite alternate;
 }
 
 .video1{
+	position: absolute;
 	display: inline-block;
-	border: 10px solid #ff8d1e;
+	border: 10px solid #ff8d1e;      
 	
 	padding: -50px;
 	width: 400px;
